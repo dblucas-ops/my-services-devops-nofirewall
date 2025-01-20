@@ -12,13 +12,13 @@
 		<mirror>
 			<id>nexus</id>
 			<mirrorOf>*</mirrorOf>
-			<url>https://nexuspro.mapfreusa.com/repository/maven-proxy-group/</url>
+			<url>https://mynexuspro.com/repository/maven-proxy-group/</url>
 		</mirror>
    </mirrors>
   
   <servers>
    <server>
-      <id>nexus_deployments</id>
+      <id>my_deployments</id>
       <username>88jpYDBL3XH</username>
       <password>x82x44FnXVfhYDgi3DBLQiWaOwXEcDgwMWT0zU4PA0sMSMD</password>
     </server>
