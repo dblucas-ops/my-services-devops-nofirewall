@@ -218,7 +218,7 @@
     		<repository>
       			<id>nexus_deployments</id>
       			<name>GitHub Packages</name>
-      			<url>https://nexuspro.mapfreusa.com/repository/enterprise-services-snapshots</url>
+      			<url>https://my.nexus.com/repository/my-services-devops-nofirewall</url>
     		</repository>
   </distributionManagement>
 </project>
