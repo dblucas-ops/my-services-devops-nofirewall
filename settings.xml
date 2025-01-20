@@ -10,17 +10,17 @@
     
   <mirrors>
 		<mirror>
-			<id>nexus</id>
+			<id>JFROG</id>
 			<mirrorOf>*</mirrorOf>
-			<url>https://mynexuspro.com/repository/maven-proxy-group/</url>
+			<url>https://trialwmi38z.jfrog.io/artifactory/artifactory-build-info/</url>
 		</mirror>
    </mirrors>
   
   <servers>
    <server>
-      <id>my_deployments</id>
-      <username>88jpYDBL3XH</username>
-      <password>x82x44FnXVfhYDgi3DBLQiWaOwXEcDgwMWT0zU4PA0sMSMD</password>
+      <id>JFROG</id>
+      <username>dblucas@charter.net</username>
+      <password>eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIyMDI1LTAxLTIwVDE5LTI0LTIyLTI2Ny1iYXRva2VuLW52MXZremUxIiwiaXNzIjoic3RvcmUiLCJzdWIiOiJNeUpGcm9nL2RibHVjYXNAY2hhcnRlci5uZXQiLCJhdWQiOiJqZmJvQCoiLCJzY3AiOiJzdWJzY3JpcHRpb246NTUzNjU4NTA4OmFwaSIsImlhdCI6MTczNzQwMTA2MiwiZXhwIjoxNzY4OTM3MDYyLCJleHQiOiJ7XCJyZWZyZXNoYWJsZVwiOnRydWUsXCJyZXZvY2FibGVcIjp0cnVlfSJ9.Ahb8R1ExcEB72BCPwKoJuaW-cXJQmOXdrZ_rhrrBtQ9cBg2EwY9QJhGJTiWIxDahRvmGMsWC6eUDQcXCyhrA9_VefLcHtT3Es33qdp3rkoUn5PA-5wCJ9bNb5F41_9BuPDaI3hVo8erSnUYiPB6Uz7_p4SWocixjU7hkNW6SaT3WJbvA6N71uPbUchlMHjc4OTiELUYsioXY4TaYtVwH9esa_Y5GMogvM6CQSn4ACvrek4J2Y95bXenQQQnWA8oHxuaNoQkjTdlO02z6XyA9mDJIMd1odoIbdCsLkjU2aStxUWitWSaTydsR6mns2zQHjZn-S2ge313kJcrRE9vQmw</password>
     </server>
   </servers>
 </settings>
