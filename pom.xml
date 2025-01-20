@@ -216,7 +216,7 @@
 	</build>
 	<distributionManagement>
     		<repository>
-      			<id>github</id>
+      			<id>JFROG</id>
       			<name>JFROG</name>
       			<url>https://trialwmi38z.jfrog.io/artifactory/artifactory-build-info/</url>
     		</repository>
