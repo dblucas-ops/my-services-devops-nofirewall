@@ -218,7 +218,7 @@
     <snapshotRepository>
         <id>snapshots</id>
         <name>a0muzhuekoidk-artifactory-primary-0-snapshots</name>
-        <url>https://trialwmi38z.jfrog.io/artifactory/dbl-libs-snapshot</url>
+        <url>https://trialwmi38z.jfrog.io/artifactory/dbl-libs-snapshot-local</url>
     </snapshotRepository>
 </distributionManagement>
 </project>
