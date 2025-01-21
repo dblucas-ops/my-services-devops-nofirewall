@@ -5,52 +5,7 @@
     <server>
       <username>dblucas@charter.net</username>
       <password>${{secrets.JFROG}}</password>
-      <id>central</id>
-    </server>
-    <server>
-      <username>dblucas@charter.net</username>
-      <password>${{secrets.JFROG}}</password>
-      <id>snapshots</id>
+      <id>snapshot</id>
     </server>
   </servers>
-  <profiles>
-    <profile>
-      <repositories>
-        <repository>
-          <snapshots>
-            <enabled>false</enabled>
-          </snapshots>
-          <id>central</id>
-          <name>dbl-libs-release</name>
-          <url>https://trialwmi38z.jfrog.io/artifactory/dbl-libs-release</url>
-        </repository>
-        <repository>
-          <snapshots />
-          <id>snapshot</id>
-          <name>dbl-libs-snapshot</name>
-          <url>https://trialwmi38z.jfrog.io/artifactory/dbl-libs-snapshot</url>
-        </repository>
-      </repositories>
-      <pluginRepositories>
-        <pluginRepository>
-          <snapshots>
-            <enabled>false</enabled>
-          </snapshots>
-          <id>central</id>
-          <name>dbl-libs-snapshot</name>
-          <url>https://trialwmi38z.jfrog.io/artifactory/dbl-libs-release</url>
-        </pluginRepository>
-        <pluginRepository>
-          <snapshots />
-          <id>snapshot</id>
-          <name>dbl-libs-snapshot</name>
-          <url>https://trialwmi38z.jfrog.io/artifactory/dbl-libs-snapshot</url>
-        </pluginRepository>
-      </pluginRepositories>
-      <id>artifactory</id>
-    </profile>
-  </profiles>
-  <activeProfiles>
-    <activeProfile>artifactory</activeProfile>
-  </activeProfiles>
 </settings>
