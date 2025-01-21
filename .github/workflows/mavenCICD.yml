@@ -55,7 +55,7 @@ jobs:
         server-id: snapshot
         settings-path: ${{ github.workspace }}  
     - name: Publish
-      run: mvn -file pom.xml deploy
+      run: mvn -s settings.xml -file pom.xml deploy
     - name: Listing
       run: |
         ls -la target
