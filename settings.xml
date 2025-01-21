@@ -4,12 +4,12 @@
   <servers>
     <server>
       <username>dblucas@charter.net</username>
-      <password>${{secrets.JFROG0}}</password>
+      <password>${{secrets.JFROGB}}</password>
       <id>central</id>
     </server>
     <server>
       <username>dblucas@charter.net</username>
-      <password>${{secrets.JFROG0}}</password>
+      <password>${{secrets.JFROGB}}</password>
       <id>snapshots</id>
     </server>
   </servers>
