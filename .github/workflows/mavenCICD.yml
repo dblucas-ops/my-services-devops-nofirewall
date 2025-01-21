@@ -52,7 +52,7 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
-        server-id: github
+        server-id: central
         settings-path: ${{ github.workspace }}  
     - name: Publish
       run: mvn -file pom.xml deploy
