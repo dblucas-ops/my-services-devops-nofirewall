@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.2.0 http://maven.apache.org/xsd/settings-1.2.0.xsd" xmlns="http://maven.apache.org/SETTINGS/1.2.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <servers>
+    <server>
+      <username>dblucas@charter.net</username>
+      <password>${{secrets.JFROG}}</password>
+      <id>central</id>
+    </server>
+    <server>
+      <username>dblucas@charter.net</username>
+      <password>${{secrets.JFROG}}</password>
+      <id>snapshots</id>
+    </server>
+  </servers>
+  <profiles>
+    <profile>
+      <repositories>
+        <repository>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+          <id>central</id>
+          <name>dbl-libs-release</name>
+          <url>https://trialwmi38z.jfrog.io/artifactory/dbl-libs-release</url>
+        </repository>
+        <repository>
+          <snapshots />
+          <id>snapshot</id>
+          <name>dbl-libs-snapshot</name>
+          <url>https://trialwmi38z.jfrog.io/artifactory/dbl-libs-snapshot</url>
+        </repository>
+      </repositories>
+      <pluginRepositories>
+        <pluginRepository>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+          <id>central</id>
+          <name>dbl-libs-snapshot</name>
+          <url>https://trialwmi38z.jfrog.io/artifactory/dbl-libs-release</url>
+        </pluginRepository>
+        <pluginRepository>
+          <snapshots />
+          <id>snapshot</id>
+          <name>dbl-libs-snapshot</name>
+          <url>https://trialwmi38z.jfrog.io/artifactory/dbl-libs-snapshot</url>
+        </pluginRepository>
+      </pluginRepositories>
+      <id>artifactory</id>
+    </profile>
+  </profiles>
+  <activeProfiles>
+    <activeProfile>artifactory</activeProfile>
+  </activeProfiles>
+</settings>
