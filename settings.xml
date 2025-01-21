@@ -5,7 +5,7 @@
     <server>
       <id>snapshots</id>
       <username>dblucas@charter.net</username>
-      <password>${{secrets.JFROGB}}</password>
+      <password>${{secrets.JFROG0}}</password>
     </server>
   </servers>
 </settings>
