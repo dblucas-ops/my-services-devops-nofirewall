@@ -3,7 +3,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <servers>
     <server>
-      <id>snapshot</id>
+      <id>snapshots</id>
       <username>dblucas@charter.net</username>
       <password>${{secrets.JFROGB}}</password>
     </server>
