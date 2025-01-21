@@ -215,11 +215,11 @@
 		</plugins>
 	</build>
 	<distributionManagement>
-	    <snapshotRepository>
-	        <id>snapshots</id>
+	    <repository>
+	        <id>snapshot</id>
 	        <name>a0muzhuekoidk-artifactory-primary-0-snapshots</name>
 	        <url>https://trialwmi38z.jfrog.io/artifactory/dbl-libs-snapshot</url>
-	    </snapshotRepository>
+	    </repository>
 	</distributionManagement>
 </project>
 
