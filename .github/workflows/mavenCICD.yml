@@ -1,4 +1,4 @@
-name: Maven Action Workflow No Firewall Sample
+name: Maven Action Workflow No Firewall Sample DBL
 on:
   push:
     branches:
