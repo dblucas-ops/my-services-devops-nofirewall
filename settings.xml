@@ -21,8 +21,8 @@
             <enabled>false</enabled>
           </snapshots>
           <id>central</id>
-          <name>dbl-libs-snapshot</name>
-          <url>https://trialwmi38z.jfrog.io/artifactory/dbl-libs-snapshot</url>
+          <name>dbl-libs-release</name>
+          <url>https://trialwmi38z.jfrog.io/artifactory/dbl-libs-release</url>
         </repository>
         <repository>
           <snapshots />
@@ -38,7 +38,7 @@
           </snapshots>
           <id>central</id>
           <name>dbl-libs-snapshot</name>
-          <url>https://trialwmi38z.jfrog.io/artifactory/dbl-libs-snapshot</url>
+          <url>https://trialwmi38z.jfrog.io/artifactory/dbl-libs-release</url>
         </pluginRepository>
         <pluginRepository>
           <snapshots />
